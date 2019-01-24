@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ChappelleCard from "./components/Card";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header"
+import chappelle from "./chappelle.json";
 
 class App extends Component {
+  state = {
+    chappelle
+  };
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Wrapper>
+        <Header>Bring Back The Chappelle Show!</Header>
+        {this.state.chappelle.map(chappelle => (
+          <ChappelleCard
+            id={chappelle.id}
+            key={chappelle.id}
+            character={chappelle.character}
+            img={chappelle.img}
+          />
+        ))}
+      </Wrapper>
     );
   }
 }
