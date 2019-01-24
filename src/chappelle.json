@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "character": "Tyrone Biggums",
+        "img": "https://carboncostume.com/wordpress/wp-content/uploads/2015/10/tyronebiggums.jpg"
+    },
+    {
+        "id": 2,
+        "character": "Silky Johnson",
+        "img": "http://potholesinmyblog.flywheelsites.com/wp-content/uploads/2012/10/silky-johnson-chappelle.jpg"
+    },
+    {
+        "id": 3,
+        "character": "President Black Bush",
+        "img": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492106613/articles/2016/11/08/the-uncompromising-politics-of-dave-chappelle/161107-Zimmerman-black-bush-tease_wgaldo"
+    },
+    {
+        "id": 4,
+        "character": "Rick James",
+        "img": "https://comedycentral.mtvnimages.com/images/shows/chappelle/videos/season_2/CHAPPELLE_02_0204_RICKJAMES_640x360.jpg"
+    },
+    {
+        "id": 5,
+        "character": "Prince",
+        "img": "https://i.ytimg.com/vi/OACvYk-265k/hqdefault.jpg"
+    },
+    {
+        "id": 6,
+        "character": "Samuel Jackson",
+        "img": "https://i.imgflip.com/pa85y.jpg"
+    },
+    {
+        "id": 7,
+        "character": "Dylan",
+        "img": "https://www.dailydot.com/wp-content/uploads/d9d/f5/9aeb5e9ee93701fe-1024x512.png"
+    },
+    {
+        "id": 8,
+        "character": "Lil Jon",
+        "img": "https://i.kinja-img.com/gawker-media/image/upload/s--lHRtdEJZ--/c_scale,f_auto,fl_progressive,q_80,w_800/mbgnt4i3rvoh2jdqydmx.jpg"
+    },
+    {
+        "id": 9,
+        "character": "Leonard Washington",
+        "img": "https://comedycentral.mtvnimages.com/images/shows/chappelle/videos/season_2/CHAPPELLE_02_0207_DICE_640x360.jpg"
+    }
+]
